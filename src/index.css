@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.br-2.animado{
+    opacity: 0;
+}
+.br-1.animado{
+    transform: rotate(45deg) translate(9px,8px);
+    transform-origin: 0% 100%;
+
+}
+.br-3.animado{
+    transform: rotate(-45deg) translate(-6px,8px);
+    transform-origin: 0% 100%;
+
+}
