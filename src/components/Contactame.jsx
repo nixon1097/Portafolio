@@ -29,17 +29,17 @@ const Contactame = () => {
   };
 
   return (
-    <section id="contactame" className="text-blue-600">
+    <section id="contactame" className="text-blue-600 grid    ">
       <h3 className="text-3xl  text-slate-700 dark:text-white mt-12 mb-10 px-10 font-bold tracking-widest text-center">
         {" "}
         Contáctame
       </h3>
-      <section className="grid  w-[90%] mx-auto px-[30%]  translate-x-2">
+      <section className="grid  w-[80%] mx-auto  max-w-[600px]  ">
         <form
           ref={refFrom}
           action=""
           onSubmit={handelSubmit}
-          className="90% md:max-w-[600px] grid gap-3"
+          className="min-w-[150px]  md:max-w-[600px] grid gap-3"
         >
           <div>
             <input

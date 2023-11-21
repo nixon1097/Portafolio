@@ -1,7 +1,7 @@
 const SobreMi = () => {
   return (
     <section
-      className="my-0 flex flex-col lg:flex-row lg:h-[600px] animate-fade-in  px-12  w-screen"
+      className="my-0 flex flex-col lg:flex-row lg:h-[600px] animate-fade-in    w-screen"
       id="sobremi "
     >
       <div className="p-10  px-12 lg:w-[80%] lg:h-[500px] lg:self-center lg:justify-around ">
@@ -32,7 +32,7 @@ const SobreMi = () => {
           </a>
         </div>
         <div>
-          <button className="border-2 rounded-md border-sky-400 p-4 w-[250px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500">
+          <button className="border-2 rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
             <a href="#contactame">Contrátame</a>
           </button>
         </div>

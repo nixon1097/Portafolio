@@ -29,12 +29,12 @@ const ExperienciaLaboral = () => {
       id="jobSection"
       onClick={handelChange}
     >
-      <div className="flex justify-between lg:flex-col lg:w-[20%] font-bold text-xl">
+      <div className="flex justify-between lg:flex-col lg:w-[20%] font-bold text-sm md:text-xl">
         <button
           type="button"
           id="link1"
           data-id="job1"
-          className="border-b-2 hover:dark:bg-slate-700 w-full -px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700 pl-4 md:pl-2"
+          className="border-b-2 hover:dark:bg-slate-700 w-full  py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700  md:pl-2"
         >
           SolucionesNavarro
         </button>

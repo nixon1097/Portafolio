@@ -15,7 +15,7 @@ function App() {
       {/* fin del menu */}
 
       {/* contenido principal */}
-      <main>
+      <main className="grid justify-center items-center">
         {/* #1 seccion hero */}
         <SobreMi />
         {/* #2 experiencia laboral  */}
