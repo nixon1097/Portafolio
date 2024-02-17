@@ -36,7 +36,7 @@ const SobreMi = () => {
           <button className="border-2 rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
             <a href="#contactame">Contrátame</a>
           </button>
-          <button className="border-2 text-[16px] flex justify-centers rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
+          <button className="border-2 text-[14px] flex justify-centers rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
             <a className="" href="./cvNixonParra.pdf" download={true}>
               Descargar CV
             </a>
@@ -44,7 +44,7 @@ const SobreMi = () => {
         </div>
       </div>
       <div className="my-16 w-full  ">
-        <div className="w-[400px] h-[320px] mx-[24%] rounded-lg lg:w-[100%] lg:h-[100%]   ">
+        <div className="w-[400px] h-[320px] lg:mx-[24%] rounded-lg lg:w-[100%] lg:h-[100%]   ">
           {" "}
           <img
             src="./img/Perfil.png"
