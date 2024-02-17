@@ -32,7 +32,7 @@ const SobreMi = () => {
             <ion-icon name="logo-instagram" className="px-2"></ion-icon>
           </a>
         </div>
-        <div className="flex gap-4 ">
+        <div className="flex justify-center gap-4 ">
           <button className="border-2 rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
             <a href="#contactame">Contrátame</a>
           </button>
@@ -43,7 +43,7 @@ const SobreMi = () => {
           </button>
         </div>
       </div>
-      <div className="my-2 w-full  ">
+      <div className="my-2 lg:my-12 w-full  ">
         <div className="w-[300px] lg:w-[400px]h-[320px] lg:mx-[24%] rounded-lg lg:w-[100%] lg:h-[100%]  md:mx-[30%] sm:mx-[25%] mx-[10%]">
           {" "}
           <img
