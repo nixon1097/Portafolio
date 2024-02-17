@@ -1,7 +1,7 @@
 const SobreMi = () => {
   return (
     <section
-      className="my-0 flex flex-col lg:flex-row lg:h-[600px] animate-fade-in    w-screen"
+      className="my-0 flex flex-col lg:flex-row lg:h-[600px] animate-fade-in  w-screen justify-center lg:pl-[189px]"
       id="sobremi "
     >
       <div className="p-10  px-12 lg:w-[80%] lg:h-[500px] lg:self-center lg:justify-around ">
@@ -12,12 +12,13 @@ const SobreMi = () => {
           Nixon Parra
         </p>
         <p className="text-3xl font-bold text-slate--500 dark:text-slate-600">
-          Desarrollo Aplicaciones WEB para un mejor futuro
+          Desarrollo Aplicaciones WEB - FULL STACK
         </p>
         <p className="mt-5 text-lg">
           {" "}
-          Soy Desarrollador Front-end, Actual mennte enfocado en crear productos
-          accesibles y Muy pronto Full Stack Developer
+          Desarrollador junior con sólida formación en Desarrollo web y Ciencias
+          de la Computación. Busco oportunidades para aplicar y crecer
+          profesionalmente.
         </p>
         {/* Redes Sociales  */}
         <div className="py-6">
@@ -37,8 +38,15 @@ const SobreMi = () => {
           </button>
         </div>
       </div>
-      <div className="my-1 w-full  ">
-        <div className="w-[400px] h-[320px] m-auto bg-[url('./img/Perfil.png')] bg-cover rounded-lg lg:w-[100%] lg:h-[100%]  lg:bg-center lg:bg-no-repeat lg:bg-[length:650px_476px]   "></div>
+      <div className="my-16 w-full  ">
+        <div className="w-[400px] h-[320px] mx-[24%] rounded-lg lg:w-[100%] lg:h-[100%]   ">
+          {" "}
+          <img
+            src="./img/Perfil.png"
+            alt="nixonparra"
+            className="opacity-80 hover:opacity-100 rounded-md bg-cover"
+          />
+        </div>
       </div>
     </section>
   );

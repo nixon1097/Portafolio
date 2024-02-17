@@ -25,7 +25,7 @@ const ExperienciaLaboral = () => {
 
   return (
     <section
-      className="my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 "
+      className="my-12 flex flex-col w-[84%] m-auto lg:flex-row lg:w-[87%] lg:my-28 justify-center"
       id="jobSection"
       onClick={handelChange}
     >
@@ -35,15 +35,6 @@ const ExperienciaLaboral = () => {
           id="link1"
           data-id="job1"
           className="border-b-2 hover:dark:bg-slate-700 w-full  py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left border-sky-500 bg-white dark:bg-slate-700  md:pl-2"
-        >
-          SolucionesNavarro
-        </button>
-
-        <button
-          type="button"
-          id="link2"
-          data-id="job2"
-          className="border-b-2 hover:dark:bg-slate-700 w-full -px-4 py-1 hover:bg-white focus:bg-white focus:border-sky-500 focus:dark:bg-slate-700 lg:border-l-2 lg:border-b-0 lg:h-full lg:text-left md:pl-4  "
         >
           SolucionesNavarro
         </button>
@@ -74,13 +65,6 @@ const ExperienciaLaboral = () => {
                 <span>Scriptcase</span> siendo esta una herramienta RAD,
                 funciona como un generador de código PHP, a partir de un
                 proyecto en su entorno de desarrollo.
-              </p>
-            </li>
-            <li className="flex items-center py-2">
-              <span className="pr-2 text-sky-500 font-black">&#9655;</span>
-              <p className="text-stone-900 dark:text-cyan-50 font-normal px-5">
-                He trabajado con un bajo nivel pero gran conociemtno de msyql en
-                la base de datos, tanto rgistrando datos como extrayendo datos.
               </p>
             </li>
           </ul>

@@ -17,10 +17,11 @@ const Proyectos = () => {
           <div>
             <h4 className="font-bold my-2 text-center">Pokedex </h4>
             <p className="px-4 font-semibold my-2 text-center">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi,
-              at neque. Ea voluptates molestiae quasi, accusantium quae vel
-              corrupti vero! Cupiditate natus numquam aut vero sequi veritatis
-              tempora nihil earum.
+              Explora nuestro fascinante mundo Pokémon con la Pokedex. Descubre
+              información detallada, estadísticas y curiosidades sobre cada
+              criatura. Embárcate en una aventura para convertirte en el mejor
+              entrenador, con datos completos y una experiencia emocionante que
+              te sumerge en el universo Pokémon
             </p>
           </div>
           <article className="flex justify-between  text-center ">
@@ -64,11 +65,12 @@ const Proyectos = () => {
           </a>
           <div>
             <h4 className="font-bold my-2 text-center">weather app </h4>
-            <p className="px-4 font-semibold my-2 text-center">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi,
-              at neque. Ea voluptates molestiae quasi, accusantium quae vel
-              corrupti vero! Cupiditate natus numquam aut vero sequi veritatis
-              tempora nihil earum.
+            <p className="px-4 font-semibold  text-center">
+              Nuestra Weather App proporciona pronósticos precisos, información
+              detallada y alertas en tiempo real, permitiéndote planificar tus
+              actividades con confianza. Mantente un paso adelante del clima,
+              evita sorpresas desagradables y organiza tu día de manera
+              eficiente gracias a nuestra aplicación intuitiva y confiable
             </p>
           </div>
           <article className="flex justify-between  text-center ">
@@ -111,12 +113,12 @@ const Proyectos = () => {
             />
           </a>
           <div>
-            <h4 className="font-bold my-2 text-center">juego pokemon </h4>
+            <h4 className="font-bold my-2 text-center">Pokemon play </h4>
             <p className="px-4 font-semibold my-2 text-center">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi,
-              at neque. Ea voluptates molestiae quasi, accusantium quae vel
-              corrupti vero! Cupiditate natus numquam aut vero sequi veritatis
-              tempora nihil earum.
+              Un juego de memoria de Pokémon con JavaScript, CSS y HTML. Los
+              jugadores emparejan cartas de Pokémon idénticas, ganando puntos.
+              El desafío: encontrar pares antes de que el tiempo se agote,
+              fomentando concentración y memoria visual.
             </p>
           </div>
           <article className="flex justify-between  text-center">
@@ -149,22 +151,23 @@ const Proyectos = () => {
         </div>
       </div>
       {/* Cuarto proyecto  */}
-      <div className="border-2 rounded-lg bg-white dark:bg-slate-800 m-5  max-h-[500px]   hover:scale-110 transition-all  duration-500 hover:shadow-lg dark:hover:shadow-sky-500 hover:shadow-cyan-600">
+      <div className="border-2 rounded-lg bg-white dark:bg-slate-800 m-4  max-h-[500px]   hover:scale-110 transition-all  duration-500 hover:shadow-lg dark:hover:shadow-sky-500 hover:shadow-cyan-600">
         <div className="m-2 ">
-          <a href="https://legendary-cranachan-e8ccd9.netlify.app/">
+          <a href="https://ryckandmortyni.netlify.app">
             <img
-              src="./img/pokemonjuego.png"
-              alt="Imagen pokemon juego"
+              src="./img/rickandmortyn.png"
+              alt="Imagen rickandmorty"
               className="opacity-80 hover:opacity-100 rounded-md bg-cover"
             />
           </a>
           <div>
-            <h4 className="font-bold my-2 text-center">juego pokemon </h4>
-            <p className="px-4 font-semibold my-2 text-center">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi,
-              at neque. Ea voluptates molestiae quasi, accusantium quae vel
-              corrupti vero! Cupiditate natus numquam aut vero sequi veritatis
-              tempora nihil earum.
+            <h4 className="font-bold my-2 text-center">RickandMorty</h4>
+            <p className="px-4 font-semibold  text-center">
+              Explora el caótico mundo de Rick y Morty con proyectos web en
+              React y Tailwind CSS. Con Axios, Redux y Flexbox, accede y
+              gestiona datos de APIs para una experiencia inmersiva. Sumérgete
+              en las aventuras interdimensionales con diseños dinámicos y una
+              narrativa única. ¡Únete a la locura ahora!
             </p>
           </div>
           <article className="flex justify-between  text-center">
