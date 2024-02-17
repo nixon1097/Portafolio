@@ -32,9 +32,14 @@ const SobreMi = () => {
             <ion-icon name="logo-instagram" className="px-2"></ion-icon>
           </a>
         </div>
-        <div>
+        <div className="flex gap-4 ">
           <button className="border-2 rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
             <a href="#contactame">Contrátame</a>
+          </button>
+          <button className="border-2 text-[16px] flex justify-centers rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
+            <a className="" href="./cvNixonParra.pdf" download={true}>
+              Descargar CV
+            </a>
           </button>
         </div>
       </div>
