@@ -43,8 +43,8 @@ const SobreMi = () => {
           </button>
         </div>
       </div>
-      <div className="my-16 w-full  ">
-        <div className="w-[400px] h-[320px] lg:mx-[24%] rounded-lg lg:w-[100%] lg:h-[100%]  md:mx-[30%] sm:mx-[25%] mx-[10%]">
+      <div className="my-2 w-full  ">
+        <div className="w-[300px] lg:w-[400px]h-[320px] lg:mx-[24%] rounded-lg lg:w-[100%] lg:h-[100%]  md:mx-[30%] sm:mx-[25%] mx-[10%]">
           {" "}
           <img
             src="./img/Perfil.png"
