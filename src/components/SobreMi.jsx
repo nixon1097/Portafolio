@@ -5,30 +5,38 @@ const SobreMi = () => {
       id="sobremi "
     >
       <div className="p-10  px-12 lg:w-[80%] lg:h-[500px] lg:self-center lg:justify-around ">
-        <h1 className="text-sky-600 dark:text-sky-300 text-2xl font-bold tracking-widest leading-10">
-          Hola, soy{" "}
+        <h1 className="text-sky-600 dark:text-sky-300 text-3xl font-bold tracking-widest ">
+          Hola, Soy{" "}
         </h1>
-        <p className=" text-2xl font-bold text-slate-600 dark:text-slate-300 ">
+        <p className=" py-2 text-3xl font-bold text-slate-600 dark:text-slate-300 ">
           Nixon Parra
         </p>
-        <p className="text-3xl font-bold text-slate--500 dark:text-slate-600">
+        <p className="text-4xl font-bold text-slate--500 dark:text-slate-600">
           Desarrollo Aplicaciones WEB - FULL STACK
         </p>
         <p className="mt-5 text-lg">
           {" "}
           Desarrollador junior con sólida formación en Desarrollo web y Ciencias
-          de la Computación. Busco oportunidades para aplicar y crecer
-          profesionalmente.
+          de la Computación.
         </p>
         {/* Redes Sociales  */}
         <div className="py-6">
-          <a href="" className="pr-2 text-2xl hover:text-sky-600 ">
+          <a
+            href="https://www.linkedin.com/in/parrabnixon/"
+            className="pr-2 text-2xl hover:text-sky-600 "
+          >
             <ion-icon name="logo-linkedin" className="px-2"></ion-icon>
           </a>
-          <a href="" className="pr-2 text-2xl hover:text-sky-600 ">
+          <a
+            href="https://github.com/nixon1097"
+            className="pr-2 text-2xl hover:text-sky-600 "
+          >
             <ion-icon name="logo-github" className="px-2"></ion-icon>
           </a>
-          <a href="" className="pr-2 text-2xl hover:text-sky-600 ">
+          <a
+            href="https://www.instagram.com/w_pb777/"
+            className="pr-2 text-2xl hover:text-sky-600 "
+          >
             <ion-icon name="logo-instagram" className="px-2"></ion-icon>
           </a>
         </div>
