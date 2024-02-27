@@ -8,7 +8,7 @@ const SobreMi = () => {
         <h1 className="text-sky-600 dark:text-sky-300 text-2xl font-bold tracking-widest leading-10">
           Hola, soy{" "}
         </h1>
-        <p className="py-2 text-3xl font-bold text-slate-600 dark:text-slate-300 ">
+        <p className=" text-2xl font-bold text-slate-600 dark:text-slate-300 ">
           Nixon Parra
         </p>
         <p className="text-3xl font-bold text-slate--500 dark:text-slate-600">
@@ -34,7 +34,7 @@ const SobreMi = () => {
         </div>
         <div className="flex justify-center gap-4 ">
           <button className="border-2 rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
-            <a href="#contactame">Contrátame</a>
+            <a href="#contactame">contáctame</a>
           </button>
           <button className="border-2 text-[14px] flex justify-centers rounded-md border-sky-400 p-4 w-[150px] text-lg tracking-widest hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900 ease-out duration-500 max-w-[250px]">
             <a className="" href="./cvNixonParra.pdf" download={true}>

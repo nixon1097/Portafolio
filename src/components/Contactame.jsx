@@ -13,6 +13,7 @@ const Contactame = () => {
 
   const handelSubmit = (e) => {
     e.preventDefault();
+    console.log(refFrom.email);
 
     emailjs
       .sendForm(SERVICEID, TEMPLATEID, refFrom.current, APIKEY)
