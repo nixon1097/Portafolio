@@ -1,4 +1,3 @@
-import "./apps";
 import Carousel from "./components/Carousel";
 import Contactame from "./components/Contactame";
 import Footer from "./components/Footer";
