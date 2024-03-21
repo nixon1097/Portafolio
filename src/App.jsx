@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { data } from "./Data";
 import Carousel from "./components/Carousel";
 import Contactame from "./components/Contactame";

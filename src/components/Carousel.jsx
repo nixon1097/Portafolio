@@ -16,7 +16,12 @@ const Carousel = ({ slides }) => {
       <div className=" min-w-[300px]    grid grid-cols  items-center justify-center md:w-[600px] m-auto    mx-auto  text-center ">
         <CarouselCard>
           {slides.map((s) => {
-            return <img key={s.id} src={s.imgUrl} className="  p-12 " />;
+            return (
+              <>
+                {" "}
+                <img key={s.id} src={s.imgUrl} className="  p-12 " />
+              </>
+            );
           })}
         </CarouselCard>
       </div>

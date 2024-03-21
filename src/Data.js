@@ -1,41 +1,51 @@
 export const data=[
     { 
-        id:1,imgUrl: './img/stack/bootstrap-5-1.svg'
+        id:1,imgUrl: './img/stack/bootstrap-5-1.svg',
+        name: 'Bootstrap',
     },
     { 
-        id:2,imgUrl: './img/stack/css-3.svg'
+        id:2,imgUrl: './img/stack/css-3.svg',
+        name:'CSS'
     },
     { 
-        id:3,imgUrl: './img/stack/html-1.svg'
+        id:3,imgUrl: './img/stack/html-1.svg',
+        name:'HTML '
   },
     { 
-        id:4,imgUrl: './img/stack/javascript-1.svg'
+        id:4,imgUrl: './img/stack/javascript-1.svg',
+        name:'Javascript '
     },   
     { 
-        id:5,imgUrl: './img/stack/nodejs-1.svg'
+        id:5,imgUrl: './img/stack/nodejs-1.svg',
+        name:'Node js'
        
   },
     { 
-        id:6,imgUrl: './img/stack/postgresql.svg'
+        id:6,imgUrl: './img/stack/postgresql.svg',
+        name:'Postgresql '
      
     },
     { 
-        id:7,imgUrl: './img/stack/postman.svg'
+        id:7,imgUrl: './img/stack/postman.svg',
+        name:'Postman'
        
         
     },   
     { 
-        id:8,imgUrl: './img/stack/python-5.svg'
+        id:8,imgUrl: './img/stack/python-5.svg',
+        name: 'Python'
         
        
   },
     { 
-        id:9,imgUrl: './img/stack/react-2.svg '
+        id:9,imgUrl: './img/stack/react-2.svg ',
+        name:'React js'
       
      
     },{
         id:10,
-        imgUrl:'./img/stack/tailwind-css-2.svg'
+        imgUrl:'./img/stack/tailwind-css-2.svg',
+        name:'Tailwind CSS'
         
     }
 
@@ -71,7 +81,7 @@ export const sobreMi={
             {
                 id:2,
                 title:"Descargar CV",
-                url:"./cvNixonParra.pdf",
+                url:"./cvnixonparra.pdf",
                 download:"true"
             },
 
