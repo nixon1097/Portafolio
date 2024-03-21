@@ -1,41 +1,41 @@
 export const data=[
     { 
-        id:1,imgUrl: '/public/img/stack/bootstrap-5-1.svg'
+        id:1,imgUrl: './img/stack/bootstrap-5-1.svg'
     },
     { 
-        id:2,imgUrl: '/public/img/stack/css-3.svg'
+        id:2,imgUrl: './img/stack/css-3.svg'
     },
     { 
-        id:3,imgUrl: '/public/img/stack/html-1.svg'
+        id:3,imgUrl: './img/stack/html-1.svg'
   },
     { 
-        id:4,imgUrl: '/public/img/stack/javascript-1.svg'
+        id:4,imgUrl: './img/stack/javascript-1.svg'
     },   
     { 
-        id:5,imgUrl: '/public/img/stack/nodejs-1.svg'
+        id:5,imgUrl: './img/stack/nodejs-1.svg'
        
   },
     { 
-        id:6,imgUrl: '/public/img/stack/postgresql.svg'
+        id:6,imgUrl: './img/stack/postgresql.svg'
      
     },
     { 
-        id:7,imgUrl: '/public/img/stack/postman.svg'
+        id:7,imgUrl: './img/stack/postman.svg'
        
         
     },   
     { 
-        id:8,imgUrl: '/public/img/stack/python-5.svg'
+        id:8,imgUrl: './img/stack/python-5.svg'
         
        
   },
     { 
-        id:9,imgUrl: '/public/img/stack/react-2.svg '
+        id:9,imgUrl: './img/stack/react-2.svg '
       
      
     },{
         id:10,
-        imgUrl:'/public/img/stack/tailwind-css-2.svg'
+        imgUrl:'./img/stack/tailwind-css-2.svg'
         
     }
 
