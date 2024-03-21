@@ -30,58 +30,59 @@ const Contactame = () => {
   };
 
   return (
-    <section id="contactame" className="text-blue-600 grid    ">
-      <h3 className="text-3xl  text-slate-700 dark:text-white mt-12 mb-10 px-10 font-bold tracking-widest text-center">
+    <section
+      id="contactame"
+      className="grid text-blue-600  mt-12  w-[80%] mx-auto  max-w-[600px]  "
+    >
+      <h3 className="text-3xl  text-slate-700 dark:text-white mt-0 top-7 mb-10 px-10 font-bold tracking-widest text-center">
         {" "}
         Contáctame
       </h3>
-      <section className="grid  w-[80%] mx-auto  max-w-[600px]  ">
-        <form
-          ref={refFrom}
-          action=""
-          onSubmit={handelSubmit}
-          className="min-w-[150px]  md:max-w-[600px] grid gap-3"
-        >
-          <div>
-            <input
-              placeholder="info@ejempli.com"
-              type="email"
-              name="email"
-              id="email"
-              required
-              className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
-            />
-          </div>
-          <div>
-            <input
-              placeholder="Nombre"
-              type="text"
-              name="name"
-              id="name"
-              required
-              className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
-            />
-          </div>
-          <div>
-            <textarea
-              placeholder="Mensaje..."
-              name="message"
-              id="message"
-              rows="5"
-              className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
-            ></textarea>
-            <a
-              href="mailto:nixonandrewparra@gmail.com"
-              className="opacity-0"
-              id="trucazo"
-            ></a>
-          </div>
+      <form
+        ref={refFrom}
+        action=""
+        onSubmit={handelSubmit}
+        className="min-w-[150px]  md:max-w-[600px] grid gap-3"
+      >
+        <div>
+          <input
+            placeholder="info@ejempli.com"
+            type="email"
+            name="email"
+            id="email"
+            required
+            className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
+          />
+        </div>
+        <div>
+          <input
+            placeholder="Nombre"
+            type="text"
+            name="name"
+            id="name"
+            required
+            className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
+          />
+        </div>
+        <div>
+          <textarea
+            placeholder="Mensaje..."
+            name="message"
+            id="message"
+            rows="5"
+            className="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400"
+          ></textarea>
+          <a
+            href="mailto:nixonandrewparra@gmail.com"
+            className="opacity-0"
+            id="trucazo"
+          ></a>
+        </div>
 
-          <button className="bg-sky-600 text-white p-3 w-full rounded-lg text-xl tracking-widest btn-send hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900">
-            Enviar mensaje{" "}
-          </button>
-        </form>
-      </section>
+        <button className="bg-sky-600 text-white p-3 w-full rounded-lg text-xl tracking-widest btn-send hover:bg-sky-500 hover:shadow-md hover:shadow-sky-400 hover:dark:text-slate-900">
+          Enviar mensaje{" "}
+        </button>
+      </form>
     </section>
   );
 };

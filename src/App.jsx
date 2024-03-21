@@ -1,9 +1,11 @@
-import "./App.css";
+import "./apps";
+import Carousel from "./components/Carousel";
 import Contactame from "./components/Contactame";
-import ExperienciaLaboral from "./components/ExperienciaLaboral";
+import Footer from "./components/Footer";
 import NavHeader from "./components/NavHeader";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
+import { data } from "./utils/Data";
 
 function App() {
   return (
@@ -15,34 +17,15 @@ function App() {
       {/* fin del menu */}
 
       {/* contenido principal */}
-      <main className="grid justify-center items-center">
-        {/* #1 seccion hero */}
+      <main className="grid gap-10   justify-center items-center">
         <SobreMi />
-        {/* #2 experiencia laboral  */}
-        <h2 className="text-3xl text-slate-700 dark:text-white font-bold tracking-widest w-[85%] m-auto text-center mt-8  ">
-          Experiencia Laboral
-        </h2>
-        <ExperienciaLaboral />
-        <h3 className="text-3xl text-slate-700 dark:text-white my-5 px-10 font-bold tracking-widest text-center">
-          Mis Ultimos Proyectos
-        </h3>
         <Proyectos />
+        <>
+          <Carousel slides={data} />
+        </>
         <Contactame />
 
-        <footer className="text-center mt-12 mb-5 grid justify-center items-center mx-auto px-[20%] ">
-          <p> Diseñado &#38; Desarrollado por Nixon Parra </p>
-          <div className="flex gap-2 my-2 mx-auto">
-            <a href="https://www.instagram.com/w_pb777/">
-              <i className="bi bi-instagram hover:text-sky-500"></i>
-            </a>
-            <a href="https://github.com/nixon1097">
-              <i className="bi bi-github hover:text-sky-500"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/parrabnixon/">
-              <i className="bi bi-linkedin hover:text-sky-500"></i>
-            </a>
-          </div>
-        </footer>
+        <Footer />
       </main>
     </>
   );

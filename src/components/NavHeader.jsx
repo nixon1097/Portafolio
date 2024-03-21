@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 const NavHeader = () => {
+  const [openMenu, setOpenMenu] = useState(false);
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "system"
   );
@@ -8,8 +9,6 @@ const NavHeader = () => {
   const element = document.documentElement;
   const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
 
-  const menuButtonSpans = document.querySelectorAll("#menu-button span ");
-  const links = document.querySelectorAll("#menu a");
   const options = [
     {
       icons: "sunny",
@@ -26,31 +25,15 @@ const NavHeader = () => {
   ];
 
   const handelOnclick = () => {
-    document.querySelector("#menu").classList.toggle("hidden");
-
-    menuButtonSpans?.forEach((span) => {
-      span.classList.toggle("animado");
-    });
+    const open = openMenu;
+    setOpenMenu(!open);
   };
-
-  //   cerrar menu cuando habro un link
-  links.forEach((link) => {
-    link.addEventListener("click", () => {
-      document.querySelector("#menu").classList.add("hidden");
-      menuButtonSpans.forEach((span) => {
-        span.classList.remove("animado");
-      });
-    });
-  });
 
   // cierra menu cuando maximo la ventana
   window.onresize = function () {
     let w = window.outerWidth;
     if (w > 768) {
-      document.querySelector("#menu").classList.add("hidden");
-      menuButtonSpans.forEach((span) => {
-        span.classList.remove("animado");
-      });
+      handelOnclick();
     }
   };
   //   toma el thema del compuitadora
@@ -85,6 +68,9 @@ const NavHeader = () => {
     }
   }, [theme]);
 
+  useEffect(() => {
+    handelOnclick();
+  }, []);
   darkQuery.addEventListener("change", (e) => {
     if (!("theme" in localStorage)) {
       if (e.matches) {
@@ -108,17 +94,24 @@ const NavHeader = () => {
 
       <div
         id="menu"
-        className={`bg-white dark:bg-slate-800 p-12 h-[380px] w-[70%] min-[400px]:w-[320px] md:flex flex-col items-start justify-around rounded-lg text-dark dark:text-white md:flex-row md:w-full md:py-0 md:h-[50px] md:bg-inherit md:dark:bg-primary  hidden `}
+        className={`bg-slate-200 dark:bg-slate-800 p-12 h-[380px] w-[70%] min-[400px]:w-[320px] md:flex flex-col items-start justify-around rounded-lg text-dark dark:text-white md:flex-row md:w-full md:py-0 md:h-[50px] md:bg-inherit md:dark:bg-primary ${
+          openMenu ? "hidden" : " "
+        } `}
       >
-        <ul className="flex h-5/6 flex-col md:items-center justify-around md:flex-row md:justify-center w-screen ">
+        <ul
+          onClick={() => {
+            setOpenMenu(!openMenu);
+          }}
+          className="flex h-5/6 flex-col md:items-center justify-around md:flex-row md:justify-center w-screen "
+        >
           <li className="md:px-5 hover:text-sky-600">
             <a href="#sobremi">Quien Soy</a>
           </li>
           <li className="md:px-5 hover:text-sky-600">
-            <a href="#jobSection">Experiencia</a>
+            <a href="#proyectos">Proyectos</a>
           </li>
           <li className="md:px-5 hover:text-sky-600">
-            <a href="#proyectos">Proyectos</a>
+            <a href="#stacks">Tecnologias</a>
           </li>
           <li className="md:px-5 hover:text-sky-600">
             <a href="#contactame">Contáctame</a>
@@ -145,9 +138,21 @@ const NavHeader = () => {
         onClick={handelOnclick}
         className="absolute  right-12 md:hidden"
       >
-        <span className="br-1 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"></span>
-        <span className="br-2 block  bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"></span>
-        <span className="br-3 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px]"></span>
+        <span
+          className={`br-1 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px] ${
+            openMenu ? "" : "animado"
+          } `}
+        ></span>
+        <span
+          className={`br-2 block  bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px] ${
+            openMenu ? "" : "animado"
+          }`}
+        ></span>
+        <span
+          className={`br-3 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px] ${
+            openMenu ? "" : "animado"
+          }`}
+        ></span>
       </button>
       {/* fin del menu  */}
     </nav>
