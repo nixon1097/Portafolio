@@ -1,4 +1,4 @@
-import CarouselCard from "./CArouselCard";
+import CarouselCard from "./CarouselCard";
 
 const Carousel = ({ slides }) => {
   return (
