@@ -1,4 +1,4 @@
-import { Proyect } from "../utils/Data";
+import { Proyect } from "../Data";
 import ProyectCard from "./ProyectCard";
 
 const Proyectos = () => {

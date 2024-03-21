@@ -1,10 +1,10 @@
+import { data } from "./Data";
 import Carousel from "./components/Carousel";
 import Contactame from "./components/Contactame";
 import Footer from "./components/Footer";
 import NavHeader from "./components/NavHeader";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
-import { data } from "./utils/Data";
 
 function App() {
   return (

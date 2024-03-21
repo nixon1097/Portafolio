@@ -1,4 +1,4 @@
-import { sobreMi } from "../utils/Data";
+import { sobreMi } from "../Data";
 const SobreMi = () => {
   const { icon, contacto } = sobreMi;
 
