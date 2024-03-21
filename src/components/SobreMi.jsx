@@ -14,7 +14,7 @@ const SobreMi = () => {
         <p className=" py-2 text-3xl font-bold text-slate-600 dark:text-slate-300 animate-fade-right animate-once animate-delay-2000 animate-ease-in ">
           Nixon Parra
         </p>
-        <p className="text-4xl font-bold text-slate--500 dark:text-slate-600 animate-fade-right animate-once animate-delay-3000 animate-ease-in">
+        <p className="text-4xl font-bold text-slate--500 dark:text-slate-500 animate-fade-right animate-once animate-delay-3000 animate-ease-in drop-shadow-3xl">
           Desarrollo Aplicaciones WEB - FULL STACK
         </p>
         <p className="mt-5 text-lg animate-fade-right animate-once animate-delay-4000 animate-ease-in-out">
