@@ -1,10 +1,11 @@
 import { sobreMi } from "../Data";
+
 const SobreMi = () => {
   const { icon, contacto } = sobreMi;
 
   return (
     <section
-      className="my-0 flex flex-col lg:flex-row lg:h-[600px] animate-fade-in    justify-center lg:pl-[20px]"
+      className="my-0 flex flex-col lg:flex-row lg:h-[600px] animate-fade-in    justify-center lg:pl-[20px] "
       id="sobremi "
     >
       <div className="p-10  px-12 lg:w-[80%] lg:h-[500px] lg:self-center lg:justify-around ">

@@ -95,7 +95,7 @@ const NavHeader = () => {
       <div
         id="menu"
         className={`bg-slate-200 dark:bg-slate-800 p-12 h-[380px] w-[70%] min-[400px]:w-[320px] md:flex flex-col items-start justify-around rounded-lg text-dark dark:text-white md:flex-row md:w-full md:py-0 md:h-[50px] md:bg-inherit md:dark:bg-primary ${
-          openMenu ? "hidden" : " "
+          openMenu ? "hidden " : "  "
         } `}
       >
         <ul
@@ -136,7 +136,7 @@ const NavHeader = () => {
       <button
         id="menu-button"
         onClick={handelOnclick}
-        className="absolute  right-12 md:hidden"
+        className={`absolute  right-12 md:hidden `}
       >
         <span
           className={`br-1 block bg-black dark:bg-white my-2 rounded-md h-[3px] w-[28px] ${
