@@ -6,11 +6,13 @@ const ProyectCard = ({ item }) => {
     >
       <div className="m-2  ">
         <a href={item?.url}>
-          <img
-            src={item?.urlImg}
-            alt={item?.titleImag}
-            className="opacity-80 hover:opacity-100 rounded-md bg-cover"
-          />
+          <div className="flex justify-center mx-h-[200px]">
+            <img
+              src={item?.urlImg}
+              alt={item?.titleImag}
+              className="opacity-80 hover:opacity-100 rounded-md bg-cover max-h-[200px]  "
+            />
+          </div>
         </a>
         <div>
           <h4 className="font-bold mt-2 text-center">{item.title}</h4>

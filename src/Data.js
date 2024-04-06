@@ -81,7 +81,8 @@ export const sobreMi={
             {
                 id:2,
                 title:"Descargar CV",
-                url:"./cvnixonparra.pdf",
+                url:"./cvNixonParra.pdf",
+               
                 download:"true"
             },
 
@@ -263,6 +264,50 @@ export const Proyect =[
         ]
         },
         messag:'Explora el caótico mundo de Rick y Morty con proyectos web en  React y Tailwind CSS. Con Axios, Redux y Flexbox, accede y gestiona datos de APIs para una experiencia inmersiva. Sumérgete en las aventuras interdimensionales con diseños dinámicos y una narrativa única. ¡Únete a la locura ahora!'
+    },
+    {
+        id:5,
+        title:'reqqo-mobile ',
+        titleImag:"Imagen reqqo-movi",
+        urlImg:"./img/reqqo-movil.png",
+        url:"https://reqqo-movil.netlify.app/",
+        icon:{
+            stack:[
+                {
+                    id:1,
+                    name:'reactIcon',
+                    icon:'bx bxl-react',
+                    hover:'hover:text-sky-600'
+                },
+                {
+                    id:2,
+                    name:'tailwind-cssIcon',
+                    icon:'bx bxl-tailwind-css',
+                    hover:'hover:text-sky-600'
+                },
+                {
+                    id:3,
+                    name:'cssIcon',
+                    icon:'bx bxl-css3',
+                    hover:'hover:text-sky-600'
+                    
+                }
+            ],
+            repoAndVisual:[
+                {
+                    id:1,
+                    url:"https://github.com/nixon1097/red5G-quoo-movil",
+                    icon:"logo-github"
+                },
+                {
+                    id:2,
+                    url:"https://reqqo-movil.netlify.app/",
+                    icon:"eye-outline"
+                },
+
+        ]
+        },
+        messag:'Desarrollé una página principal con React, implementando un header, tarjetas de crédito y ventanas modales interactivas. Además, incluí rigurosas validaciones para datos personales. Demostré habilidades en maquetación, diseño web y lógica de validación dinámica'
     }
 ]
 
