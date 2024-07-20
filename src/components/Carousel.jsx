@@ -6,10 +6,7 @@ const Carousel = ({ slides }) => {
       id="stacks"
       className="flex-grow  py-16 justify-center items-center  my-[120px] p-8 "
     >
-      <h3
-        className=" text-3xl  first-letterlp}
-      +{ñ,+{text-slate-700 dark:text-white  font-bold tracking-widest text-center"
-      >
+      <h3 className=" text-3xl  first-letter text-slate-700 dark:text-white  font-bold tracking-widest text-center">
         Stacks
       </h3>
 

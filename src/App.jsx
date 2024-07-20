@@ -7,15 +7,16 @@ import NavHeader from "./components/NavHeader";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
 
+import FirtsPgs from "./components/FirtsPgs";
+
 function App() {
   return (
     <>
-      {/* inicio de menu */}
+      inicio de menu
       <header>
         <NavHeader />
       </header>
       {/* fin del menu */}
-
       {/* contenido principal */}
       <main className="grid gap-10   justify-center items-center">
         <SobreMi />
