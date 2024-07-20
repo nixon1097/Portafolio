@@ -2,11 +2,11 @@ const ProyectCard = ({ item }) => {
   return (
     <div
       key={item?.id}
-      className="border-2 rounded-lg bg-white dark:bg-slate-800 m-5 max-h-[550px] hover:scale-110 transition-all  duration-500 hover:shadow-lg dark:hover:shadow-sky-500 hover:shadow-cyan-600"
+      className="border-2 rounded-lg bg-white dark:bg-slate-800 m-5 max-h-[500px]  hover:scale-110 transition-all  duration-500 hover:shadow-lg dark:hover:shadow-sky-500 hover:shadow-cyan-600"
     >
-      <div className="m-2  ">
+      <div className="m-2  h-[400px] ">
         <a href={item?.url}>
-          <div className="flex justify-center mx-h-[200px]">
+          <div className="flex justify-center mx-h-[200px] ">
             <img
               src={item?.urlImg}
               alt={item?.titleImag}
@@ -14,9 +14,9 @@ const ProyectCard = ({ item }) => {
             />
           </div>
         </a>
-        <div>
+        <div className="">
           <h4 className="font-bold mt-2 text-center">{item.title}</h4>
-          <p className="px-4 font-semibold my-2 text-center">{item.messag}</p>
+          <p className="px-6 font-semibold my-2 text-center">{item.messag}</p>
         </div>
 
         <article className="flex justify-between  text-center ">

@@ -81,7 +81,7 @@ export const sobreMi={
             {
                 id:2,
                 title:"Descargar CV",
-                url:"./cvNixonParra.pdf",
+                url:"./cvNxonParra.pdf",
                
                 download:"true"
             },

@@ -7,12 +7,9 @@ import NavHeader from "./components/NavHeader";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
 
-import FirtsPgs from "./components/FirtsPgs";
-
 function App() {
   return (
     <>
-      inicio de menu
       <header>
         <NavHeader />
       </header>
